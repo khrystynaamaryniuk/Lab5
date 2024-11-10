@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="result-container">
+    <h2>Quiz Results</h2>
+    <p>Score: <span th:text="${count}"></span></p>
+
+    <a href="/login">Try again</a> 
+</div>
+</html>
